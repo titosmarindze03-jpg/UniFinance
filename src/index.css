@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-brand-primary: #0B2545; /* Navy Blue academic / Unitiva style */
+  --color-brand-primary-light: #133B68;
+  --color-brand-secondary: #1E293B; /* Charcoal Slate */
+  --color-brand-accent: #C59B27; /* Antique Gold accent */
+  --color-brand-accent-light: #DFB239;
+}
+
+/* Custom scrollbars and styling */
+@layer base {
+  body {
+    @apply font-sans antialiased bg-slate-50 text-slate-900;
+  }
+}
+
+/* Tabular figures is a core rule of the design guidelines */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

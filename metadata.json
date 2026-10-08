@@ -1,0 +1,6 @@
+{
+  "name": "UniFinance",
+  "description": "Seu dinheiro, sob controle. Gerenciamento financeiro pessoal moderno focado em controle, organização e metas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
